@@ -27,6 +27,7 @@ UTF-8 determines how many bytes a character uses by reading marker bits at the s
 |    **2 Bytes**     |  `U+0080` to `U+07FF`   |    `110xxxxx`    |    `10xxxxxx`    |        N/A       |        N/A       |
 |    **3 Bytes**     |  `U+0800` to `U+FFFF`   |    `1110xxxx`    |    `10xxxxxx`    |    `10xxxxxx`    |        N/A       |
 |    **4 Bytes**     | `U+10000` to `U+10FFFF` |    `11110xxx`    |    `10xxxxxx`    |    `10xxxxxx`    |    `10xxxxxx`    |
+```
 
 > **Rule**: For multi-byte characters, the number of leading `1` bits in Byte 1 tells the system how many total bytes long the character is. Every subsequent continuation byte must begin with the bits `10`.
 

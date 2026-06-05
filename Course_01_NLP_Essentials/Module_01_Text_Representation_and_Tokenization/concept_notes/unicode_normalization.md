@@ -30,7 +30,7 @@ Consider the character `é` (as seen in words like *café* or *resumé*):
 |     **Code Points Used**    | `U+00E9` (Single point) | `U+0065` (Letter `e`) + `U+0301` (Combining Acute Accent) |
 |      **String Length**      |       1 Character       |                     2 Characters                          |
 |     **UTF-8 Hex Bytes**     |    `C3 A9` (2 bytes)    |                 `65 CC 81` (3 bytes)                      |
-
+```
 
 ## Why This Matters in NLP Pipelines
 If your raw training data contains a mix of un-normalized text, a NLP model will treat the NFC version of a word and the NFD version of the exact same word as two completely unique vocabulary terms. 

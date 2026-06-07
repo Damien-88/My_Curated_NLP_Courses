@@ -17,6 +17,7 @@ Course_1_NLP_Essentials/
 └── language_logs/          # Script executions and analysis across different linguistic typologies
     ├── tokenization_tests.md
     └── regex_tokenizer.py
+```
 
 ## Technical Specifications & Environment
 

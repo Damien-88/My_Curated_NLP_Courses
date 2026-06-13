@@ -28,10 +28,10 @@ My_Curated_NLP_Courses/
 ### Course 1: Natural Language Processing Essentials
 **Focus:** Foundational Linguistic Structure & Deterministic Pipelines
 
-- [ ] **Module 1: Text Representation & Tokenization**
-  - [ ] *The Text Lifecycle:* Strings, streams, Unicode normalization (NFC vs. NFD), and character encodings.
-  - [ ] *Tokenization Paradigms:* Whitespace vs. rule-based regex tokenization.
-  - [ ] *Implementation Mapping:* Building custom regex tokenizers vs. rule-based engines.
+- [X] **Module 1: Text Representation & Tokenization**
+  - [X] *The Text Lifecycle:* Strings, streams, Unicode normalization (NFC vs. NFD), and character encodings.
+  - [X] *Tokenization Paradigms:* Whitespace vs. rule-based regex tokenization.
+  - [X] *Implementation Mapping:* Building custom regex tokenizers vs. rule-based engines.
 - [ ] **Module 2: Linguistic Preprocessing & Normalization**
   - [ ] *Noise Removal:* Stripping HTML/JSON, case folding, and stop-word removal strategies.
   - [ ] *Stemming vs. Lemmatization:* Algorithmic truncation (Porter, Lancaster) vs. context-aware morphological analysis.

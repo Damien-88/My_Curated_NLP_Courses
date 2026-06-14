@@ -33,7 +33,7 @@ My_Curated_NLP_Courses/
   - [X] *Tokenization Paradigms:* Whitespace vs. rule-based regex tokenization.
   - [X] *Implementation Mapping:* Building custom regex tokenizers vs. rule-based engines.
 - [ ] **Module 2: Linguistic Preprocessing & Normalization**
-  - [ ] *Noise Removal:* Stripping HTML/JSON, case folding, and stop-word removal strategies.
+  - [X] *Noise Removal:* Stripping HTML/JSON, case folding, and stop-word removal strategies.
   - [ ] *Stemming vs. Lemmatization:* Algorithmic truncation (Porter, Lancaster) vs. context-aware morphological analysis.
   - [ ] *Part-of-Speech (POS) Tagging:* Penn Treebank conventions, dependency tracking, and noun chunk extraction.
 - [ ] **Module 3: Statistical Language Modeling**

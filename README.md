@@ -43,7 +43,7 @@ My_Curated_NLP_Courses/
   - [X] *Stemming vs. Lemmatization:* Algorithmic truncation (Porter, Lancaster) vs. context-aware morphological analysis.
   - [X] *Part-of-Speech (POS) Tagging:* Penn Treebank conventions, dependency tracking, and noun chunk extraction.
 - [ ] **Module 3: Statistical Language Modeling**
-  - [ ] *The $N$-gram Architecture:* Unigram, bigram, and trigram probability distributions.
+  - [X] *The $N$-gram Architecture:* Unigram, bigram, and trigram probability distributions.
   - [ ] *Maximum Likelihood Estimation (MLE):* Math bounds for sentence generation and text completion.
   - [ ] *The Sparsity Problem:* Laplace (add-one), Lidstone, and Kneser-Ney smoothing equations.
 - [ ] **Module 4: Classical Vector Space Models & Pipelines**

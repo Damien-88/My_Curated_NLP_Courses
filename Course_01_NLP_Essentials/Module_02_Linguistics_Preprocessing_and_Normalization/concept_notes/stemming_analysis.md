@@ -15,12 +15,12 @@ attributes.
 ### 2. Algorithmic Implementations
 
 * **The Porter Stemmer**: The industry-standard rule baseline. It applies a sequential series of 5 distinct algorithmic 
-phases. Each phase checks specific suffix rules and maps them to a smaller core block.
+  phases. Each phase checks specific suffix rules and maps them to a smaller core block.
   * *Example Rule*: If a word ends in `sses`, replace with `ss` (e.g., `caresses` $\rightarrow$ `caress`).
   * *Design Philosophy*: Conservative and moderate. It tries to preserve recognizable base forms.
 
-* **The Lancaster Stemmer**: A significantly more aggressive, cascading rule system. It reads a dynamic external rule 
-table and applies shifts iteratively until no more rules match.
+* **The Lancaster Stemmer**: A significantly more aggressive, cascading rule system. It applies a large set of 
+  aggressive, iterative rules stored in a fixed rule set until no further reductions are possible.
   * *Design Philosophy*: Highly destructive. It optimizes purely for maximum vocabulary reduction, often leaving behind 
     non-word roots.
 

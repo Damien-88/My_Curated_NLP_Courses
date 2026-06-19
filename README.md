@@ -1,11 +1,17 @@
 # My Curated NLP Courses
 
-A comprehensive graduate-level repository documenting a ground-up, deterministic approach to Natural Language Processing (NLP) and Computational Linguistics (CL). This repository maps foundational statistical mechanics up to modern deep architectures, specifically viewed through the lens of cross-lingual structural analysis and multilingual scaling constraints.
+A comprehensive graduate-level repository documenting a ground-up, deterministic approach to Natural Language Processing 
+(NLP) and Computational Linguistics (CL). This repository maps foundational statistical mechanics up to modern deep 
+architectures, specifically viewed through the lens of cross-lingual structural analysis and multilingual scaling 
+constraints.
 
 
 ## System Architecture & Repository Layout
 
-This repository is strictly organized into modules matching the execution order of the curriculum blocks. Each course directory contains two core folders: `concept_notes/` (for theoretical architecture breakdowns, math derivations, and linguistic typology impacts) and `language_logs/` (for observations on how these specific computational models behave when applied to independent language studies).
+This repository is strictly organized into modules matching the execution order of the curriculum blocks. Each course 
+directory contains two core folders: `concept_notes/` (for theoretical architecture breakdowns, math derivations, and 
+linguistic typology impacts) and `language_logs/` (for observations on how these specific computational models behave 
+when applied to independent language studies).
 
 ```text
 My_Curated_NLP_Courses/
@@ -32,10 +38,10 @@ My_Curated_NLP_Courses/
   - [X] *The Text Lifecycle:* Strings, streams, Unicode normalization (NFC vs. NFD), and character encodings.
   - [X] *Tokenization Paradigms:* Whitespace vs. rule-based regex tokenization.
   - [X] *Implementation Mapping:* Building custom regex tokenizers vs. rule-based engines.
-- [ ] **Module 2: Linguistic Preprocessing & Normalization**
+- [X] **Module 2: Linguistic Preprocessing & Normalization**
   - [X] *Noise Removal:* Stripping HTML/JSON, case folding, and stop-word removal strategies.
-  - [ ] *Stemming vs. Lemmatization:* Algorithmic truncation (Porter, Lancaster) vs. context-aware morphological analysis.
-  - [ ] *Part-of-Speech (POS) Tagging:* Penn Treebank conventions, dependency tracking, and noun chunk extraction.
+  - [X] *Stemming vs. Lemmatization:* Algorithmic truncation (Porter, Lancaster) vs. context-aware morphological analysis.
+  - [X] *Part-of-Speech (POS) Tagging:* Penn Treebank conventions, dependency tracking, and noun chunk extraction.
 - [ ] **Module 3: Statistical Language Modeling**
   - [ ] *The $N$-gram Architecture:* Unigram, bigram, and trigram probability distributions.
   - [ ] *Maximum Likelihood Estimation (MLE):* Math bounds for sentence generation and text completion.

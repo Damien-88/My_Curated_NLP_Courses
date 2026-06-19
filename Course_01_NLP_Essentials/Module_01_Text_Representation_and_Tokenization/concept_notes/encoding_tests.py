@@ -48,7 +48,7 @@ def demonstrate_corruption():
 
     except UnicodeDecodeError as e:
         print(f"Decoded as UTF-8: FAILED! (Caught Expected Error: {e})")
-        print(" -> Insight: UTF-8 parser rejected invalid structural continuation bits.")
+        print("Insight: UTF-8 parser rejected invalid structural continuation bits.")
 
 
 if __name__ == "__main__":

@@ -1,13 +1,14 @@
 """
 Day 2: Unicode Normalization (NFC vs. NFD) Verification Script
 This script isolates the exact byte and code-point differences between composed 
-and decomposed text strings.Demonstrating why normalization is critical.
+and decomposed text strings. Demonstrating why normalization is critical.
 """
 
 import unicodedata
 
 def analyze_normalization_forms(input_word):
-    """Deconstructs a string into NFC and NFD states to show byte and code-point differences."""
+    """Deconstructs a string into NFC and NFD states to show byte and code-point 
+    differences."""
     # Force input string into explicit NFC and NFD forms
     nfc_form = unicodedata.normalize('NFC', input_word)
     nfd_form = unicodedata.normalize('NFD', input_word)
@@ -31,6 +32,7 @@ def analyze_normalization_forms(input_word):
 
 if __name__ == "__main__":
     # Test using the French word for summary: 'résumé'
-    # We explicitly define it with unicode literals to prevent terminal/editor stripping
+    # We explicitly define it with unicode literals to prevent terminal/editor 
+    # stripping
     target_word = "r\u00e9sum\u00e9"  # 'résumé' with composed characters
     analyze_normalization_forms(target_word)

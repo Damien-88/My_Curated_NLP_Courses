@@ -1,4 +1,4 @@
-# Day 6: Morphological Lemnmatization via spaCy
+# Day 5b: Morphological Lemnmatization via spaCy
 
 ### Learning Objective
 Understand the core differences between heuristic stemming and contextual lemmatization, analyze how statistical 

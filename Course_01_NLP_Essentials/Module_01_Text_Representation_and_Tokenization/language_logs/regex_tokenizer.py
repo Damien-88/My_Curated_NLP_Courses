@@ -1,14 +1,15 @@
 """
-Day 3: Deterministic Refex Tokenization Engine
-This script constructs a rule-based tokenizer using regular expressions and benchmarks
-its perfomance against native whitespace aplitting across various languages.
+Day 3: Deterministic Regex Tokenization Engine
+This script constructs a rule-based tokenizer using regular expressions and 
+benchmarks its performance against native whitespace splitting across various 
+languages.
 """
 import re
 
 class DeterministicRegexTokenizer:
     def __init__(self):
         # A compiled regex pattern matching distinct tokens:
-        # 1. Words with optional internal conatractions/apostrophes (\w+(?:'\w+)?)
+        # 1. Words with optional internal contractions/apostrophes (\w+(?:'\w+)?)
         # 2. Sequential non-whitespace symbols or isolated punctuation ([^\w\s])
         self.token_pattern = re.compile(r"[a-zA-Z0-9]+|['’]|[^\w\s]|\w")
 

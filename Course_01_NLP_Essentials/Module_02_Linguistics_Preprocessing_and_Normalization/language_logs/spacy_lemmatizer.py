@@ -1,5 +1,5 @@
 """
-Day 6: Context-Aware Lemmatization Engine
+Day 5b: Context-Aware Lemmatization Engine
 This script utilizes spaCy to accurately extract dictionary base forms (lemmas)
 and highlights how parsing context prevents the over-stemming bugs seen on day 5.
 """

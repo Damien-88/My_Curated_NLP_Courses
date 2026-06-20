@@ -9,24 +9,7 @@ constraints.
 ## System Architecture & Repository Layout
 
 This repository is strictly organized into modules matching the execution order of the curriculum blocks. Each course 
-directory contains two core folders: `concept_notes/` (for theoretical architecture breakdowns, math derivations, and 
-linguistic typology impacts) and `language_logs/` (for observations on how these specific computational models behave 
-when applied to independent language studies).
-
-```text
-My_Curated_NLP_Courses/
-│
-├── Course_1_NLP_Essentials/
-│   ├── concept_notes/          # Math formulas, algorithm steps, schemas
-│   └── language_logs/          # Typological analysis of target languages
-│
-├── Course_2_Advanced_Tokenization_and_Sentiment/
-│   ├── concept_notes/          # BPE logic, tagging schemes, matrices
-│   └── language_logs/          # Subword tracking, morphologically rich language issues
-│
-└── Course_3_Neural_Models_and_Translation/
-├── concept_notes/          # Attention equations, vector space graphs
-└── language_logs/          # Cross-lingual alignment notes, translation errors
+directory contains 4 module directory that contain two core folders: `concept_notes/` and `code`.
 
 
 ## Curriculum Blueprint & Tracking
@@ -44,7 +27,7 @@ My_Curated_NLP_Courses/
   - [X] *Part-of-Speech (POS) Tagging:* Penn Treebank conventions, dependency tracking, and noun chunk extraction.
 - [ ] **Module 3: Statistical Language Modeling**
   - [X] *The $N$-gram Architecture:* Unigram, bigram, and trigram probability distributions.
-  - [ ] *Maximum Likelihood Estimation (MLE):* Math bounds for sentence generation and text completion.
+  - [X] *Maximum Likelihood Estimation (MLE):* Math bounds for sentence generation and text completion.
   - [ ] *The Sparsity Problem:* Laplace (add-one), Lidstone, and Kneser-Ney smoothing equations.
 - [ ] **Module 4: Classical Vector Space Models & Pipelines**
   - [ ] *Bag-of-Words (BoW):* Frequency counting and vector space dimensionality constraints.

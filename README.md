@@ -25,12 +25,12 @@ directory contains 4 module directory that contain two core folders: `concept_no
   - [X] *Noise Removal:* Stripping HTML/JSON, case folding, and stop-word removal strategies.
   - [X] *Stemming vs. Lemmatization:* Algorithmic truncation (Porter, Lancaster) vs. context-aware morphological analysis.
   - [X] *Part-of-Speech (POS) Tagging:* Penn Treebank conventions, dependency tracking, and noun chunk extraction.
-- [ ] **Module 3: Statistical Language Modeling**
+- [X] **Module 3: Statistical Language Modeling**
   - [X] *The $N$-gram Architecture:* Unigram, bigram, and trigram probability distributions.
   - [X] *Maximum Likelihood Estimation (MLE):* Math bounds for sentence generation and text completion.
-  - [ ] *The Sparsity Problem:* Laplace (add-one), Lidstone, and Kneser-Ney smoothing equations.
+  - [X] *The Sparsity Problem:* Laplace (add-one), Lidstone, and Kneser-Ney smoothing equations.
 - [ ] **Module 4: Classical Vector Space Models & Pipelines**
-  - [ ] *Bag-of-Words (BoW):* Frequency counting and vector space dimensionality constraints.
+  - [X] *Bag-of-Words (BoW):* Frequency counting and vector space dimensionality constraints.
   - [ ] *TF-IDF Matrix Generation:* Term Frequency-Inverse Document Frequency mathematical formulations.
   - [ ] *End-to-End Pipelines:* Text classifiers combining TF-IDF and Linear Models (Logistic Regression).
 
@@ -75,7 +75,8 @@ directory contains 4 module directory that contain two core folders: `concept_no
 
 ## Global Reference System
 
-The theoretical notes in this repository are cross-referenced directly with the following primary academic frameworks:
+The notes in this repository are cross-referenced directly with the following primary academic frameworks:
 * **Textbook:** Daniel Jurafsky & James H. Martin, *Speech and Language Processing* (3rd Edition Draft).
 * **Taxonomy Reference:** *World Atlas of Language Structures (WALS)* for structural/typological validation.
 * **Testing Sandbox:** Hugging Face Model Hub Browser Widgets for non-code model output verification.
+* **Editor and Accuracy:** ChatGPT and Gemini for grammar and final accuracy verification.

@@ -75,7 +75,7 @@ To ensure deterministic execution and reproducibility across all implementations
     - `concept_notes/smoothing_theory.md`
     - `code/smoothed_predictor.py`
 
-- [ ] **Day 9b: Absolute Discounting & Kneser-Ney Smoothing**
+- [X] **Day 9b: Absolute Discounting & Kneser-Ney Smoothing**
   - **Files**
     - `concept_notes/kneser_ney.md`
     - `code/kneser_ney_baseline.py`
@@ -93,7 +93,7 @@ To ensure deterministic execution and reproducibility across all implementations
     - `concept_notes/tfidf_formulation.md`
     - `code/matrix_tfidf.py`
 
-- [ ] **Day 12: End-to-End Text Classification Pipelines**
+- [X] **Day 12: End-to-End Text Classification Pipelines**
   - **Files**
     - `concept_notes/classification_pipeline.md`
     - `code/classification_pipeline.py`

@@ -29,10 +29,10 @@ directory contains 4 module directory that contain two core folders: `concept_no
   - [X] *The $N$-gram Architecture:* Unigram, bigram, and trigram probability distributions.
   - [X] *Maximum Likelihood Estimation (MLE):* Math bounds for sentence generation and text completion.
   - [X] *The Sparsity Problem:* Laplace (add-one), Lidstone, and Kneser-Ney smoothing equations.
-- [ ] **Module 4: Classical Vector Space Models & Pipelines**
+- [X] **Module 4: Classical Vector Space Models & Pipelines**
   - [X] *Bag-of-Words (BoW):* Frequency counting and vector space dimensionality constraints.
-  - [ ] *TF-IDF Matrix Generation:* Term Frequency-Inverse Document Frequency mathematical formulations.
-  - [ ] *End-to-End Pipelines:* Text classifiers combining TF-IDF and Linear Models (Logistic Regression).
+  - [X] *TF-IDF Matrix Generation:* Term Frequency-Inverse Document Frequency mathematical formulations.
+  - [X] *End-to-End Pipelines:* Text classifiers combining TF-IDF and Linear Models (Logistic Regression).
 
 ### Course 2: Advanced Tokenization and Sentiment Analysis
 **Focus:** Subword Processing, Information Extraction, and Machine Learning Baselines
